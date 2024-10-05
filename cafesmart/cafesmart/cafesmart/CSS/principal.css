@@ -1,0 +1,78 @@
+
+
+body {
+    background-color: white; 
+    color: rgb(1, 1, 10);                
+    font-family: Arial;             
+    margin: 0; 
+}
+
+header {
+    text-align: center; 
+    border: 2px white; 
+    background-color:#760507;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.imagen {
+    text-align: center; 
+}
+
+.parrafo {
+    font-size: 22px; 
+}
+
+
+
+.caja {
+    display: flex; 
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pie {
+    text-align: center;
+    border: 2px solid #760507; 
+    background-color: #760507;
+    color: white;
+    padding: 20px; 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.parrafo { 
+    padding-right: 4%;
+}
+#resultado {
+    font-size: 28px; 
+}
+
+#pedir {
+    background-color: #760507;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 4vh;
+    width: 10vh;
+   margin-right: 12px;
+}
+#volver {
+    background-color: #760507;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 4vh;
+    width: 10vh;
+   
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores</title>
+</head>
+<header>
+    <nav>
+        <img src="../IMG/logo.png" alt="Logo Cafesmart">
+        <h2 id="username"></h2>
+        <ul>
+            <li><a href="../HTML/bienvenidaEmp.html">INICIO</a></li>
+            <li><a href="../HTML/pedidos.html">PEDIDOS</a></li>
+            <li><a href="../HTML/stock.html">STOCK</a></li>
+            <li><a href="../HTML/productos.html">AÑADIR PRODUCTOS</a></li>
+            <li><a href="../HTML/provedores.html">PROVEEDORES</a></li>
+        </ul>
+    </nav>
+</header>
+</header>
+<body>
+    <div class="principal">
+        <h1>Añadir Proveedor</h1>
+        <form id="formulario" action="#" method="post" onsubmit="enviarProveedor(event)">
+            <label for="codigo">Código:</label>
+            <input type="text" id="codigo" name="code" required>
+    
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+    
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required>
+    
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+    
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+        <div class="container"></div>
+        <div class="section">
+            <h2>Nuestros Proveedores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Dirección</th>
+                        <th>Ciudad</th>
+                        <th>Teléfono</th>
+                    </tr>
+                </thead>
+                <tbody id="res">
+                </tbody>
+            </table>
+        </div>
+    </div>    
+    <div class="pie">   
+        Cafesmart <br>
+        Telefono 3027989587 <br>
+        Barranquilla - Colombia 
+    </div>
+    <link rel="stylesheet" href="../CSS/provedores.css">
+    <script src="../js/provedores.js"></script>
+</body>
+</html>

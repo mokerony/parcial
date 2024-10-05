@@ -1,0 +1,91 @@
+body {
+    background-color: white; 
+    color: rgb(1, 1, 10);                
+    font-family: Arial;             
+    margin: 0; 
+    padding-bottom: 100px;
+}
+
+header {
+    text-align: center;
+    border: 2px white; 
+    background-color: #760507;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.parrafo {
+    font-size: 25px; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.producto p {
+    color: #555;
+}
+
+.pie {
+    text-align: center;
+    border: 2px solid #760507; 
+    background-color: #760507;
+    color: white;
+    padding: 20px; 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.boton-container {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;       
+    margin: 0;                
+    padding: 0;             
+}
+
+#volver {
+    background-color: #760507;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 5vh;
+    width: 13vh;
+    display: block;           
+    margin: 0 auto;           
+    text-align: center; 
+    text-decoration: none; 
+}
+

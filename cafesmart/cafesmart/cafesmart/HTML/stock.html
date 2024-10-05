@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock de productos</title>
+</head>
+<header>
+    <nav>
+        <img src="../IMG/logo.png" alt="Logo Cafesmart">
+        <h2 id="username"></h2>
+        <ul>
+            <li><a href="../HTML/bienvenidaEmp.html">INICIO</a></li>
+            <li><a href="../HTML/pedidos.html">PEDIDOS</a></li>
+            <li><a href="../HTML/stock.html">STOCK</a></li>
+            <li><a href="../HTML/productos.html">AÑADIR PRODUCTOS</a></li>
+            <li><a href="../HTML/provedores.html">PROVEEDORES</a></li>
+        </ul>
+    </nav>
+</header>
+</header>
+<body onload="mostrarProductos()">
+    <div class="container">
+        <div class="section">
+            <h1>Productos Disponibles</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody id="res">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="pie">   
+        Cafesmart <br>
+        Telefono 3027989587 <br>
+        Barranquilla - Colombia 
+    </div>
+    <link rel="stylesheet" href="../CSS/stock.css">
+    <script src="../js/stock.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+[
+    {
+        "nombre": "Juan Pérez",
+        "pedido": "papas bbq, agua manzana",
+        "total": "$4.000"
+    },
+    {
+        "nombre": "María Gómez",
+        "pedido": "empanada, bigcola",
+        "total": "$3.500"
+    },
+    {
+        "nombre": "Carlos López",
+        "pedido": "agua, sandwich",
+        "total": "$2.500"
+    },
+    {
+        "nombre": "Ana Torres",
+        "pedido": "cocacola, barrilete",
+        "total": "$3800"
+    },
+    {
+        "nombre": "Pedro Martínez",
+        "pedido": "agua, bonbon",
+        "total": "$2.000"
+    },
+    {
+        "nombre": "Laura Díaz",
+        "pedido": "agua, deditos",
+        "total": "$3.000"
+    }
+
+]

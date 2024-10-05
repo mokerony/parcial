@@ -1,0 +1,133 @@
+
+
+body {
+    background-color: white; 
+    color: rgb(1, 1, 10);                
+    font-family: Arial;             
+    margin: 0; 
+}
+
+header {
+    text-align: center; 
+    border: 2px white; 
+    background-color:#760507;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.imagen {
+    text-align: center; 
+}
+
+.parrafo {
+    font-size: 22px; 
+}
+
+
+
+.caja {
+    display: flex; 
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pie {
+    text-align: center;
+    border: 2px solid #760507; 
+    background-color: #760507;
+    color: white;
+    padding: 20px; 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.parrafo { 
+    padding-right: 4%;
+}
+#resultado {
+    font-size: 28px; 
+}
+
+#boton-menu {
+    background-color: #760507;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 4vh;
+    width: 10vh;
+}
+#volver {
+    background-color: #760507;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 4vh;
+    width: 10vh;
+}
+
+
+.frm {
+    background-color: white;
+    border: 2px solid #760507;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+}
+
+
+.frm div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: #760507;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #760507;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #760507;
+    background-color: white;
+}
+
+input[type="text"]:focus {
+    border-color: #760507;
+    outline: none;
+}
+
+button#ingresarBtn {
+    background-color: #760507;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button#ingresarBtn:hover {
+    background-color: white;
+    color: #760507;
+    border: 2px solid #760507;
+}
